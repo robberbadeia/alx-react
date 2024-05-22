@@ -1,0 +1,8 @@
+.App-Notifications {
+    border: red dotted 3px;
+    padding: 2px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
