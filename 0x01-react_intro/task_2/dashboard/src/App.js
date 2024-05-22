@@ -9,7 +9,18 @@ function App() {
         <h1>School dashboard</h1>
       </header>
       <body className="App-body">
-        <p>Login to access the full dashboard</p>
+        <h2>Login to access the full dashboard :</h2>
+        <div className="App-register_container">
+          <div className="App-register_email">
+            <label for="email">Email: </label>
+            <input id="email" type="text"></input>
+          </div>
+          <div className="App-register_passsword">
+            <label for="pass">Password: </label>
+            <input id="pass" type="password"></input>
+          </div>
+          <button type="submit">OK</button>
+        </div>
       </body>
       <footer className="App-footer">
         <p>Copyright 2020 - holberton School</p>
