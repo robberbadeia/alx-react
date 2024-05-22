@@ -4,10 +4,6 @@ import "./Notifications.css";
 import { getLatestNotification } from "./utils";
 
 const Notifications = () => {
-  const handleClick = () => {
-    console.log("Close button has been clicked");
-  };
-
   return (
     <div className="App-Notifications">
       <button
