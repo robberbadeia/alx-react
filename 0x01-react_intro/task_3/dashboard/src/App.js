@@ -5,25 +5,25 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header" role="banner">
         <img src={Holberton_Logo} className="App-logo" alt="logo" />
         <h1>School dashboard</h1>
       </header>
-      <body className="App-body">
+      <main className="App-body" role="main">
         <h2>Login to access the full dashboard :</h2>
         <div className="App-register_container">
           <div className="App-register_email">
-            <label for="email">Email: </label>
+            <label htmlFor="email">Email: </label>
             <input id="email" type="text"></input>
           </div>
           <div className="App-register_passsword">
-            <label for="pass">Password: </label>
+            <label htmlFor="pass">Password: </label>
             <input id="pass" type="password"></input>
           </div>
           <button type="submit">OK</button>
         </div>
-      </body>
-      <footer className="App-footer">
+      </main>
+      <footer className="App-footer" role="contentinfo">
         <p>
           {getFullYear()} - {getFooterCopy(true)}
         </p>
