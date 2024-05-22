@@ -36,9 +36,12 @@
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 10px;
 }
-.App-register_container label {
+.App-register_container label , input, button{
   font-size: large;
   font-weight: 1000;
+}
+.App-register_container button {
+  width: 50px;
 }
