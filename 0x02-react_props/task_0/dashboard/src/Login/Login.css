@@ -1,0 +1,15 @@
+.App-register_container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.App-register_container label,
+input,
+button {
+  font-size: large;
+  font-weight: 1000;
+}
+.App-register_container button {
+  width: 50px;
+}
