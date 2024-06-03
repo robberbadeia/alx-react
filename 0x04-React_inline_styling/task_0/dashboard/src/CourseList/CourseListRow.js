@@ -1,9 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+const rowStyle = { background: "#f5f5f5ab" };
+const headerStyle = { background: "#deb5b545" };
+
 function CourseListRow({ isHeader, textFirstCell, textSecondCell }) {
+  const style = isHeader ? headerStyle : rowStyle;
+
   return (
-    <tr>
+    <tr style={style}>
       {isHeader ? (
         textSecondCell === null ? (
           <th colSpan={2}>{textFirstCell}</th>
